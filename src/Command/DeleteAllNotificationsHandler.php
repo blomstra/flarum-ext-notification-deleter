@@ -31,7 +31,7 @@ class DeleteAllNotificationsHandler
 
     /**
      * @param NotificationRepository $notifications
-     * @param Dispatcher $events
+     * @param Dispatcher             $events
      */
     public function __construct(NotificationRepository $notifications, Dispatcher $events)
     {
@@ -41,6 +41,7 @@ class DeleteAllNotificationsHandler
 
     /**
      * @param DeleteAllNotifications $command
+     *
      * @throws \Flarum\User\Exception\PermissionDeniedException
      */
     public function handle(DeleteAllNotifications $command)

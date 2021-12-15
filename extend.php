@@ -21,5 +21,5 @@ return [
     new Extend\Locales(__DIR__.'/locale'),
 
     (new Extend\Routes('api'))
-        ->delete('/notifications/delete', 'notifications.deleteAll', Api\Controller\DeleteAllNotificationsController::class)
+        ->delete('/notifications/delete', 'notifications.deleteAll', Api\Controller\DeleteAllNotificationsController::class),
 ];
