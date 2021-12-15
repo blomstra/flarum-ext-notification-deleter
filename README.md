@@ -4,6 +4,8 @@
 
 A [Flarum](http://flarum.org) extension. Adds an option to delete your notifications
 
+We have a [PR](https://github.com/flarum/core/pull/3205) to introduce this in `flarum/core`, this extension introduces the same functionality for Flarum 1.0.x and 1.1.x
+
 ## Installation
 
 Install with composer:
@@ -19,6 +21,10 @@ composer update blomstra/notification-deleter:"*"
 php flarum migrate
 php flarum cache:clear
 ```
+
+## Credit
+
+This extension was sponsored by [Kagi](https://kagi.com/), an ad-free search engine
 
 ## Links
 
