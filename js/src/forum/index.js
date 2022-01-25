@@ -20,6 +20,8 @@ app.initializers.add('blomstra/notification-deleter', () => {
   };
 
   extend(NotificationList.prototype, 'controlItems', function (items) {
+    const state = this.attrs.state;
+    
     items.add(
       'delete',
       <Tooltip text={app.translator.trans('blomstra-notification-deleter.forum.notifications.delete_all_tooltip')}>
