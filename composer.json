@@ -2,7 +2,9 @@
     "name": "blomstra/notification-deleter",
     "description": "Adds an option to delete your notifications",
     "keywords": [
-        "flarum", "notifications", "delete"
+        "flarum",
+        "notifications",
+        "delete"
     ],
     "support": {
         "issues": "https://github.com/blomstra/flarum-ext-notification-deleter/issues",
@@ -17,8 +19,8 @@
     },
     "authors": [
         {
-            "name": "IanM",
-            "email": "ian@blomstra.net",
+            "name": "Team Blomstra",
+            "email": "development@blomstra.net",
             "role": "Developer"
         }
     ],
